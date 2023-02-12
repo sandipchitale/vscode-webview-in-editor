@@ -36,4 +36,10 @@ export class AppService {
       message
     });
   }
+
+  close() {
+    this.vscode.postMessage({
+      command: 'close'
+    });
+  }
 }

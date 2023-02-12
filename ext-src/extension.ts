@@ -68,6 +68,8 @@ class WebviewInEditor {
           case 'showErrorMessage':
             vscode.window.showErrorMessage(data.message);
             break;
+          case 'close':
+            break;
         }
 
       },

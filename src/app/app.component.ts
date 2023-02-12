@@ -63,4 +63,8 @@ export class AppComponent implements OnInit, AfterViewInit {
   greet() {
     this.appService.showMessage('Hello from Webview in Editor');
   }
+
+  close() {
+    this.appService.close();
+  }
 }
